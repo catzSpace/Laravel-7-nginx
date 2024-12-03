@@ -16,7 +16,7 @@ create laravel project
 
 ```sh
 # connect to container
-docker exec -it laravel_app bash
+docker exec -it $(name of container) bash
 
 # run bash in the container
 composer create-project --prefer-dist laravel/laravel:^7.0
