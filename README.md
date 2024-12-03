@@ -12,6 +12,12 @@ down services
 docker-compose down
 ```
 
+upload service
+
+```sh
+docker-compose build
+```
+
 create laravel project
 
 ```sh
@@ -29,7 +35,7 @@ modify .env file for your db config
 
 ```sh
 DB_CONNECTION=mysql
-DB_HOST=mysql
+DB_HOST=mysql_server
 DB_PORT=3306
 DB_DATABASE=your_db
 DB_USERNAME=your_user
